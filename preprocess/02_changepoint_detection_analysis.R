@@ -14,7 +14,7 @@ library(scico)
 
 
 # file
-json_data <- stream_in(file("C:/Users/veigel/Documents/projects/twitter/data/tweets_germany_all_time/tweets.jsonl"))
+json_data <- stream_in(file("tweets.jsonl"))
 
 json_data$dmy_ =  ymd_hms(json_data$date)
 json_data$Date = date(json_data$date)
