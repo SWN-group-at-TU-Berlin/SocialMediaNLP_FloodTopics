@@ -2,7 +2,7 @@ library(tidyverse)
 library(lubridate)
 library(ggthemes)
 
-setwd("C:/Users/veigel/Documents/projects/twitter/script/visualization/final_model")
+setwd("final_model")
 
 #-------------------------------------------------------------------------------
 # Read data 
