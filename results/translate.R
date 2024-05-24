@@ -1,0 +1,90 @@
+
+translate_figure1_top2 = data.frame("german" = c(
+"0\nwasserwirtschaftsaemter\ngenauere",
+"1\nwetterextremen\nniedrigwasser",  
+"3\nmeter\nmarke",
+"7\nkatastrophenschutz\nvermis",
+"24\nbundeskanzlerin\nangela",
+"48\nvier\nverheerenden",
+"55\nunveraendert\ndurchatmen",
+"69\nkonstant\nstand",
+"110\nueberschwemmten\ndrei",
+"114\njahrhundert\nkraftwerke",
+"122\nbetroffene\nfinanzminister",
+"152\ndammwachen\nvillafohrde",
+"154\nelektromesse\nsmartphones",
+"167\nkonstant\nstand",
+"178\nlangsam\nfallenden"),
+"english" = c(
+"0\nwater authorities\nmore precise",
+"1\nweather extremes\nlow water level",
+"3\nmeters\nmark",
+"7\ndisaster management\nmissing",
+"24\nChancellor\nAngela",
+"48\nfour\ndevastating",
+"55\nunchanged\nbreathe",
+"69\nconstant\nstand",
+"110\nflooded\nthree",
+"114\ncentury\npower plants",
+"122\naffected\nFinance Minister",
+"152\ndam guards\nVillafohrde",
+"154\nelectronics fair\nsmartphones",
+"167\nconstant\nstand",
+"178\nslowly\nfalling") 
+)
+translate_figure2_3_top3 = data.frame("german" = c(
+"110 110 ueberschwemmten\ndrei\nsommergewittern",        
+"3 3 meter\nmarke\nnormalerweise",
+"12 12 nachrichtenagentur\ntennessee\nhashtag",
+"76 76 ortufern\nschneeschmelze\nungerecht",
+"9 9 pflegearbeiten\nhilfeleistung\npizzakarton",        
+"7 7 katastrophenschutz\nvermis\nreserve",
+"0 0 wasserwirtschaftsaemter\ngenauere\nunteren",
+"1 1 wetterextremen\nniedrigwasser\nbesser",
+"168 168 niederbayerischen\ntodesopfern\nkatastrophalem",
+"48 48 vier\nverheerenden\nzerstoerungen",
+"55 55 unveraendert\ndurchatmen\nhoellentalklamm",
+"167 167 konstant\nstand\ngt",
+"94 94 aktualisierte\ninfo\nliegt"),
+"english" = c(
+"110 flooded\nthree\nsummer storms",        
+"3 meter\nmark\nusually",
+"12 news agency\ntennessee\nhashtag",
+"76 riverbanks\nsnowmelt\nunjust",
+"9 care work\nassistance\npizza box",        
+"7 disaster relief\nmissing\nreserve",
+"0 water authorities\nmore precise\nlower",
+"1 weather extremes\nlow water\nbetter",
+"168 Lower Bavarian\nfatalities\ncatastrophic",
+"48 four\ndevastating\ndamages",
+"55 unchanged\nbreathe\nHoellentalklamm",
+"167 constant\nstand\ngt",
+"94 updated\ninfo\navailable")
+)
+
+
+
+#Translate semi-supervised
+
+# translate_data = data.frame("german" = c(
+# "video\nrekonstruktion\nwetteralarm" ,
+# "autofahrer\nlkw\nobdachlose"  ,   
+# "sueddeutschland\nberliner\nfrankfurt",
+# "feuerwehrkraefte\nfeuerwehr\nberufsfeuerwehr",
+# "aktuelle\ninfo\nliegt"   ,
+# "goerlitzer\nworms\nrhineside" , 
+# "schulkinder\nhubschraubereinsatz\nriss",
+# "westmole\ngegangen\nergoss",
+# "lagebericht\nmore\ninfo",        
+# "vier\nueberschwemmten\nverheerenden"), 
+# "english" = c(
+# "video\nreconstruction\nweather alert",
+# "car driver\ntruck\nhomeless",
+# "south germany\nBerlin\nFrankfurt",
+# "firefighters\nfire brigade\ncareer firefighters",
+# "current\ninfo\nis available",
+# "Goerlitz\nWorms\nRhineside",
+# "school children\nhelicopter\noperation rupture",
+# "west pier\ngone\npoured",
+# "situation report\nmore\ninfo",
+# "four\ninundated\ndevastating"))
