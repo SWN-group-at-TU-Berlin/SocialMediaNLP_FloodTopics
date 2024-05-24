@@ -3,7 +3,7 @@ library(scico)
 library(lubridate)
 library(ggpubr)
 
-setwd("C:/Users/veigel/Documents/projects/twitter/script/visualization/final_model")
+setwd("final_model")
 
 #-------------------------------------------------------------------------------
 # define disaster start, end and duration
