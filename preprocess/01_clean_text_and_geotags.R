@@ -20,7 +20,7 @@ library(bcp)
 
 
 # file
-json_data <- stream_in(file("C:/Users/veigel/Documents/projects/twitter/data/tweets_germany_all_time/tweets.jsonl"))
+json_data <- stream_in(file("tweets.jsonl"))
 
 
 # tweet text to lowercase
@@ -157,5 +157,5 @@ geojson_data = geojson_data %>% st_as_sf(coords = c("X", "Y"), crs = "+proj=long
 #plot(st_geometry(geojson_data))
 geojson_data =geojson_data[,-c(4,12)]
 
-st_write(geojson_data,"C:/Users/veigel/Documents/projects/twitter/data/tweets_germany_all_time/tweets_clean2.geojson", append = FALSE)
+st_write(geojson_data,"tweets_clean.geojson", append = FALSE)
 
